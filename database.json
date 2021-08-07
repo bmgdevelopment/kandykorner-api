@@ -1,0 +1,111 @@
+{
+    "locations": [
+        {
+            "id" : 1,
+            "sqFt" : 600,
+            "name" : "Kandyland East",
+            "address" : "2749 E. Hudyin St",
+            "handicap" : "true"
+        },
+        {
+            "id" : 2,
+            "sqFt" : 825,
+            "name" : "Kan I Have More? Kandy Store",
+            "address" : "364 S. Juneway",
+            "handicap" : "false"
+        }
+    ],
+    "employees" : [
+        {
+            "id" : 1,
+            "name" : "Sara Jenson",
+            "locationId" : 1
+        },
+        {
+            "id" : 2,
+            "name" : "Trevor Pulley",
+            "locationId" : 1
+        },
+        {
+            "id" : 3,
+            "name" : "Amanda Breins",
+            "locationId" : 2
+        },
+        {
+            "id" : 4,
+            "name" : "Malcom Whitfield",
+            "locationId" : 2
+        }
+    ],
+    "products" : [
+        {
+            "id" : 1,
+            "name" : "Twizzler",
+            "productTypeId" : 3,
+            "price" : 2.99
+        },
+        {
+            "id" : 2,
+            "name" : "Snicker",
+            "productTypeId" : 2,
+            "price" : 1.29
+        },
+        {
+            "id" : 3,
+            "name" : "Payday",
+            "productTypeId" : 2,
+            "price" : 1.29
+        },
+        {
+            "id" : 4,
+            "name" : "Skittles",
+            "productTypeId" : 1,
+            "price" : 0.99
+        }
+
+    ],
+    "productTypes" : [
+        {
+            "id" : 1,
+            "type" : "Hard Candy"
+        },
+        {
+            "id" : 2,
+            "type" : "Chocolate"
+        },
+        {
+            "id" : 3,
+            "type" : "Gum"
+        },
+        {
+            "id" : 4,
+            "type" : "Soda"
+        }
+    ],
+    "customers": [
+        {
+            "id" : 1,
+            "name" : "Brenda Meilyww ",
+            "locationId" : 2,
+            "productId" : 1        
+        },
+        {
+            "id" : 2,
+            "name" : "Lauren Dewine",
+            "locationId" : 1,
+            "productId" : 1
+        },
+        {
+            "id" : 3,
+            "name" : "Maria Redin",
+            "locationId" : 1,
+            "productId" : 4
+        },
+        {
+            "id" : 4,
+            "name" : "Howie Swim",
+            "locationId" : 2,
+            "productId" : 2
+        }
+    ]
+}
